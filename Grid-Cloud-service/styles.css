@@ -1,0 +1,174 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+
+#encabezado h1{
+    font-size: 2em;
+}
+  header {
+    background-color: rgba(0, 0, 0, 0.873);
+    display: flex;
+    align-items: center;
+    color: white;
+    
+  }
+  header h1 {
+    font-size: 2em;
+  }
+
+  header img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0.5em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin: 0 1em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    margin: 2em 1em;
+  }
+  
+  section {
+    margin: 2em 0;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin: 1em 0;
+  }
+  
+  ul {
+    list-style: disc;
+    margin: 1em 0 1em 2em;
+  }
+  
+  li {
+    margin: 0.5em 0;
+  }
+  
+  p {
+    margin: 1em 0;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2E8B57;
+  }
+  
+  /* Estilos específicos para el sitio web de Grid */
+  header h1 {
+    font-size: 3em;
+    margin: 0.5em 1em;
+  }
+  
+  #servicios li:nth-child(odd) {
+    background-color: #DDF0D8;
+  }
+  
+  #paquetes li:nth-child(odd) {
+    background-color: #DDF0D8;
+  }
+  
+  #contacto label, #contacto button {
+    display: block;
+    margin: 1em 0;
+  }
+  
+  #contacto input[type="text"],
+  #contacto input[type="email"],
+  #contacto textarea {
+    padding: 0.5em;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  #contacto button {
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+  }
+  
+  #contacto button:hover {
+    background-color: #2E8B57;
+  }
+  
+  #warranty {
+    background-color: #DDF0D8;
+    padding: 1em;
+  }
+  
+  #warranty ul {
+    margin: 1em 0 1em 2em;
+  }
+  
+  #warranty button {
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+  }
+  
+  #warranty button:hover {
+    background-color: #2E8B57;
+  }
+  #servicios a {
+    display: block;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  #servicios a:hover {
+    border-color: #4CAF50;
+   
+  }
+  

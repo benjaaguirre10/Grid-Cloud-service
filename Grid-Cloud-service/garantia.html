@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solicitud de garantía de servicio</title>
+  </head>
+  <body>
+    <h1>Solicitud de garantía de servicio</h1>
+    <form action="/solicitud-garantia" method="POST">
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="email">Correo electrónico</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="telefono">Teléfono</label>
+      <input type="tel" id="telefono" name="telefono" required />
+
+      <label for="producto">Nombre del producto</label>
+      <input type="text" id="producto" name="producto" required />
+
+      <label for="descripcion_problema">Descripción del problema</label>
+      <textarea id="descripcion_problema" name="descripcion_problema" required></textarea>
+
+      <button type="submit">Enviar solicitud</button>
+    </form>
+  </body>
+</html>
